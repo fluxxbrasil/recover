@@ -26,7 +26,7 @@ class EmailRecover implements \Magento\Framework\Event\ObserverInterface
 
     /**
      * @param \Magento\Store\Model\StoreManagerInterface $storeManagerInterface
-     * @param \Fluxx\Recover\Helper\Email $email
+     * @param \Fluxx\Recover\Helper\Email                $email
      */
     public function __construct(
         StoreManagerInterface $storeManagerInterface,

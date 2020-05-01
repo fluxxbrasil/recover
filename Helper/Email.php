@@ -78,8 +78,10 @@ class Email extends AbstractHelper
     }
 
     /**
-     * Condicional for send email
-     * @param  \Magento\Sales\Model\OrderFactory $order
+     * Condicional for send email.
+     *
+     * @param \Magento\Sales\Model\OrderFactory $order
+     *
      * @return bool
      */
     public function checkAvailable($order)
@@ -134,8 +136,10 @@ class Email extends AbstractHelper
     }
 
     /**
-     * Send Email
-     * @param  \Magento\Sales\Model\OrderFactory $order
+     * Send Email.
+     *
+     * @param \Magento\Sales\Model\OrderFactory $order
+     *
      * @return this
      */
     public function sendMail($order)
