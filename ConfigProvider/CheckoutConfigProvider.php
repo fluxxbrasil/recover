@@ -12,7 +12,6 @@ use Magento\Store\Model\ScopeInterface;
 
 class CheckoutConfigProvider implements ConfigProviderInterface
 {
-
     const CONFIG_PATH_REVOCER_ALERT_ENABLED = 'recover/alert/enabled';
 
     const CONFIG_PATH_REVOCER_ALERT_AVAILABLE = 'recover/alert/available';
