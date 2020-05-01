@@ -1,5 +1,5 @@
 {
-    "name": "Fluxx/recover",
+    "name": "fluxxbrasil/recover",
     "description": "Fluxx - Exclusive to Brazil",
     "require": {
         "php": ">=7.0",
