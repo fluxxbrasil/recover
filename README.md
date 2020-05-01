@@ -1,6 +1,7 @@
 # Recover
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a4d2fb1046a34ea7805cfcae0a7f8272)](https://app.codacy.com/manual/DevMagentoFluxx/recover?utm_source=github.com&utm_medium=referral&utm_content=DevMagentoFluxx/recover&utm_campaign=Badge_Grade_Dashboard)
+[![StyleCI](https://github.styleci.io/repos/260533921/shield?branch=master)](https://github.styleci.io/repos/260533921)
 
 ## Extension features
 
