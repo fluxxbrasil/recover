@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Fluxx. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config>
+    <router id="standard">
+        <route id="fluxx" frontName="fluxx">
+            <module name="Fluxx_Recover"/>
+        </route>
+    </router>
+</config>

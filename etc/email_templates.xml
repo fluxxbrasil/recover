@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Fluxx. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="recover_email_recover_template" label="Recover" file="recover.html" type="html" module="Fluxx_Recover" area="frontend"/>
+    <template id="recover_email_recover_guest_template" label="Recover for Guest" file="recover_guest.html" type="html" module="Fluxx_Recover" area="frontend"/>
+</config>

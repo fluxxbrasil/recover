@@ -1,0 +1,39 @@
+<!--
+/**
+ * Copyright © Fluxx. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<!--@subject {{trans "%name, que tal um boleto parcelado?" name=$firstname}} @-->
+<!--@vars {
+"var reorder_hash":"Recover Hash",
+"var billing.name":"Guest Customer Name",
+"var order.increment_id":"Order Id",
+"var store.frontend_name":"Store Frontend Name",
+"var store_email":"Store Email",
+"var store_phone":"Store Phone",
+"var store_hours":"Store Hours"
+} @-->
+{{template config_path="design/email/header_template"}}
+
+<table>
+    <tr class="email-intro">
+        <td>
+            <p class="greeting">{{trans "%name," name=$firstname}}</p>
+            <p>
+                {{trans
+                    "You can divide your order %increment_id in Boleto Bancário into <strong>3 or up to 18 installments</strong>, with the first payment only after 30 days!"
+                    increment_id=$order.increment_id
+                |raw}}
+            </p>
+            <p>{{trans "Use the Boleto Parcelado - Fluxx payment method to complete your order and guarantee this offer."}}</p>
+        </td>
+    </tr>
+    <tr class="email-summary">
+        <td>
+            <h1>{{trans '<a href="%reorder_url">Redo my order</a>' reorder_url="$this.getUrl($store,'fluxx/recover/reorder/',[order_id:$order.entity_id,hash:$hash,_nosid:1]) |raw}}</h1>
+        </td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}

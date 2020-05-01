@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Fluxx. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config>
+    <default>
+        <recover>
+            <alert>
+                <enabled>1</enabled>
+                <title>Oops, your payment failed!</title>
+                <content>Você pode tentar novamente ou obter crédito para o pagamento por um boleto parcelado, para isso altere para o meio de pagamento: Boleto Parcelado - Fluxx</content>
+            </alert>
+            <email>
+                <enabled>1</enabled>
+                <recover>
+                    <enabled>1</enabled>
+                    <identity>sales</identity>
+                    <template>recover_email_recover_template</template>
+                    <guest_template>recover_email_recover_guest_template</guest_template>
+                </recover>
+            </email>
+        </recover>
+    </default>
+</config>
