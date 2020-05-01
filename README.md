@@ -1,5 +1,7 @@
 # Recover
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a4d2fb1046a34ea7805cfcae0a7f8272)](https://app.codacy.com/manual/DevMagentoFluxx/recover?utm_source=github.com&utm_medium=referral&utm_content=DevMagentoFluxx/recover&utm_campaign=Badge_Grade_Dashboard)
+
 ## Extension features
 
 Recover canceled sales by Boleto Parcelado - Fluxx
